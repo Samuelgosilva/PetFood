@@ -1,0 +1,44 @@
+.petshop-list-container {
+    height: 300px;
+    position: absolute;
+    margin-bottom: 0;
+    top: 91px;
+    z-index: 999;
+    left: 0;
+    right: 0;
+}
+
+.petshop-list {
+    padding: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* Estilizando a barra de rolagem para navegadores Webkit (Chrome, Safari) */
+.petshop-list::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+  }
+  
+  .petshop-list::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor do trilho da barra de rolagem */
+  }
+  
+  .petshop-list::-webkit-scrollbar-thumb {
+    background-color: #888; /* Cor do "polegar" da barra de rolagem */
+    border-radius: 6px; /* Arredondamento das bordas do "polegar" */
+    border: 3px solid #f1f1f1; /* Cor da borda do "polegar" */
+  }
+  
+  /* Estilizando a barra de rolagem para navegadores Firefox */
+  .petshop-list {
+    scrollbar-width: thin; /* Largura da barra de rolagem */
+    scrollbar-color: #888 #f1f1f1; /* Cor do "polegar" e do trilho */
+  }
+  
+  /* Estilizando a barra de rolagem para navegadores Edge e IE */
+  .petshop-list {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  
