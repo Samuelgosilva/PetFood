@@ -1,11 +1,11 @@
 
-import Dog from '../../assets/dog.png'
+import Dog from '../../assets/dogg.png'
 import Header from '../../components/header'
 
 const Cadastro = () => {
   return (
     <div className="container-fluid h-100 bg-primary">
-        <Header />    
+        <Header whiteVersion />    
         <div className="row">
         <div className="col-6 text-right my-auto">
             <img src={Dog} className='img-fluid' />
