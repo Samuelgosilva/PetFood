@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-    --primary: #06d6a0;
-    --secondary: #FA643D;
-}
+    --primary: 6,214,160;
+    --secondary: 250, 100, 61;
+    }
 
 html,
 body {
@@ -39,15 +39,15 @@ input[type='date']:disabled {
 }
 
 .bg-secondary {
-    background-color: var(--secondary) !important;
+    background-color: rgb(var(--secondary)) !important;
 }
 .btn-primary,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary:disabled,
 .btn-primary:hover {
-    background-color: var(--primary) !important;
-    border-color: var(--primary);
+    background-color: rgb(var(--primary)) !important;
+    border-color: rgb(var(--primary));
 }
 
 .btn-secondary,
@@ -55,12 +55,26 @@ input[type='date']:disabled {
 .btn-secondary:active,
 .btn-secondary:disabled,
 .btn-secondary:hover {
-    background-color: var(--secondary) !important;
-    border-color: var(--secondary);
+    background-color: rgb(var(--secondary)) !important;
+    border-color: rgb(var(--secondary));
 }
 
 .bg-primary {
-    background-color: var(--primary) !important;
+    background-color: rgb(var(--primary)) !important;
+}
+
+.badge {
+    font-weight: lighter;
+}
+
+.badge.badge-primary {
+    background: rgb(var(--primary), 0.1);
+    color: rgb(var(--primary));
+}
+
+.badge.badge-secondary {
+    background: rgb(var(--secondary), 0.1);
+    color: rgb(var(--secondary));
 }
 
 .box {
