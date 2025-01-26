@@ -1,16 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import Rotas from './routes'
 
-import './styles/global.css'
-import Sidebar from './components/sidebar'
-import Home from './pages/home'
+
+
 
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Sidebar/>
-    <Home/>
+    <Rotas/>
   </StrictMode>,
 )
