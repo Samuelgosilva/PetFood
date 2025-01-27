@@ -1,0 +1,92 @@
+[
+    {
+        "nome": "Ipiranga Pet Shop",
+        "logo": "https://i.postimg.cc/XvPX2YCW/a35047d2-7082-4b3c-a41c-de3e0f918f50.jpg",
+        "categoria": "$$$",
+        "destaque": 1,
+        "location": {
+            "lat": -21.14148,
+            "lng": -47.81598
+        },
+        "produtos": [
+            {
+                "nome": "Ração Golden Fórmula Cães Adultos Raças Pequenas Salmão e Arroz 10,1kg",
+                "capa": "https://i.postimg.cc/pLFmzpRN/Racao-para-Caes-Adultos-Racas-Pequenas-Golden-Formula-Salmao-e-Arroz-361550-10kg.webp",
+                "preco": 141.90,
+                "avaliacoes": 4.9
+            },
+            {
+                "nome": "Biscoito Petisco Magnus Croc Original Para Cães - 400g",
+                "capa": "https://i.postimg.cc/pd0Q1mh0/D-NQ-NP-880120-MLU72643071865-112023-O.webp",
+                "preco": 12.90,
+                "avaliacoes": 4.7
+            },
+            {
+                "nome": "Premier Per Ração Para Cachorros Adultos Raças Pequenas Frango 15kg",
+                "capa": "https://i.postimg.cc/nhTZgxHR/racao-premier-ambientes-internos-caes-filhote-porte-pequeno-frango-salmao.webp",
+                "preco": 254.89,
+                "avaliacoes": 4.7
+            }
+        ]
+    },
+    {
+        "nome": "Encanto Dos Pets",
+        "logo": "https://i.postimg.cc/mZjtCNSx/63d7fa61-d6e3-4902-9548-23c7242922bf.jpg",
+        "categoria": "$$$",
+        "destaque": 1,
+        "location": {
+            "lat": -21.12868,
+            "lng": -47.83559
+        },
+        "produtos": [
+            {
+                "nome": "Alimento Special Dog Premium para cão adulto todos os tamanhos sabor carne em sacola de 15kg",
+                "capa": "https://i.postimg.cc/P58fL9h2/D-NQ-NP-2-X-763865-MLA48950306081-012022-F.webp",
+                "preco": 158.90,
+                "avaliacoes": 4.8
+            },
+            {
+                "nome": "Ração Robustus Todo Dia Cães Adultos Sabor Carne/Frango 15kgs 21% Proteina",
+                "capa": "https://i.postimg.cc/gcSNjBgw/D-NQ-NP-2-X-968739-MLU74984268084-032024-F.webp",
+                "preco": 249,
+                "avaliacoes": 4.8
+            },
+            {
+                "nome": "Alimento Friskies s para gato adulto sabor mix de carnes em sacola de 10.1kg",
+                "capa": "https://i.postimg.cc/4NXBxHk3/D-NQ-NP-2-X-876893-MLU74416844172-022024-F.webp",
+                "preco": 155.49,
+                "avaliacoes": 4.8
+            }
+        ]
+    },
+    {
+        "nome": "Villa Pet Shop",
+        "logo": "https://i.postimg.cc/0j92z1qh/OIP.jpg",
+        "categoria": "$$$",
+        "destaque": 1,
+        "location": {
+            "lat": -21.14485,
+            "lng": -47.81795
+        },
+        "produtos": [
+            {
+                "nome": "Grade Portão Porta Proteção Pets Crianças C/ Extensor Branco",
+                "capa": "https://i.postimg.cc/RhvPnN84/D-NQ-NP-2-X-834828-MLU76958798930-062024-F.webp",
+                "preco": 57.9,
+                "avaliacoes": 4.5
+            },
+            {
+                "nome": "UniCat para gato adulto sabor atum em sacola de 10kg",
+                "capa": "https://i.postimg.cc/Kjc6hqmP/D-NQ-NP-2-X-908832-MLU74545514955-022024-F.webp",
+                "preco": 73.99,
+                "avaliacoes": 4.6
+            },
+            {
+                "nome": "Ração Úmida Patê Lata Gatos Adultos Frango 280g Bongos",
+                "capa": "https://i.postimg.cc/HsdwdGDD/D-NQ-NP-2-X-801395-MLU78685781166-092024-F.webp",
+                "preco": 16.5,
+                "avaliacoes": 5
+            }
+        ]
+    }
+]
