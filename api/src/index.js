@@ -12,6 +12,7 @@ app.use(cors())
 app.use(morgan('dev'))
 app.use(express.json())
 
+app.use('/', require('./routes/main.routes'))
 
 app.listen(3000, () => {
     console.log('Meu servidor está funcionando')
