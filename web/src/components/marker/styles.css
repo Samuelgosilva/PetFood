@@ -1,8 +1,8 @@
 .img-marker {
-    width: 57px;
+    width: 55px;
     position: absolute;
-    top: 6px;
-    left: 1px;
+    top: 3px;
+    left: 1.5px;
     border-radius: 100%;
 
 }
